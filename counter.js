@@ -10,6 +10,8 @@ setTimeout(()=>{
  p2.innerHTML =` Count incremented to ${count} `
 }, 4000)
 
-
+p2.addEventListener("click", ()=>{
+    p2.innerHTML = "I was clicked"
+})
 
 p3.innerHTML= "Count already incremented"
